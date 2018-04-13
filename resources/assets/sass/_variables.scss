@@ -6,3 +6,27 @@ $body-bg: #f5f8fa;
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+$app-head-height: 50px;
+$app-side-width: 200px;
+$app-foot-height: 50px;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-back: #F8F8F8;
+$color-border: #E2E2E2;
+$color-shadow: #888888;
+$color-success: #33CC33;
+$color-error: #FF6666;
+$color-selected: #0099FF;
+$color-title: #222222;
+$color-desc: #666666;
+$color-tip: #999999;
+$color-mask: rgba(0,0,0,0.5);
+$style-border: thin solid $color-border;
+@mixin shadow {
+  box-shadow: 1px 2px 20px $color-shadow;
+}
+@mixin text-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
